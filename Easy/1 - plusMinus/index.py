@@ -15,13 +15,13 @@ def plusMinus(arr):
     for n in arr:
 
         if n > 0:
-            qtdPositiveValues = qtdPositiveValues + 1
+            qtdPositiveValues += 1
 
         elif n < 0:
-            qtdNegativeValues = qtdNegativeValues + 1
+            qtdNegativeValues += 1
 
         else:
-            qtdZeroValues = qtdZeroValues + 1
+            qtdZeroValues += 1
 
     print(f'{(qtdPositiveValues / len(arr)):.6f}')
 
